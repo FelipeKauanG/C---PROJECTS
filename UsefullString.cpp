@@ -9,9 +9,10 @@ int main(){
 
     cout << "Enter your name: ";
     getline(cin, name);
+ 
 
-
-    if(name.length() > 12){
+    cout << name.find("pa");
+    /*if(name.length() > 12){
         cout << "Your name can't be over 12 characteres.";
 
     }
@@ -20,7 +21,7 @@ int main(){
     }
     else{
         cout << "Welcome " << name;
-    }
+    }*/
     
     
 
